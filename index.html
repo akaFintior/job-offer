@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form style="margin-top: 20%;" action="#">
+        <input id="num1" type="number" name="first" style="margin: 0 10px 0 30%; width: 250px;">
+        <input id="num2" type="number" name="second" style=" width: 250px;" readonly>
+    </form>
+    <div style="margin-left: 30%; display: flex;">
+        <div class="firstNum" style="width: 250px;">
+            <p>Binary: <span id="b1"></span></p>
+            <p>Hex: <span id="h1"></span></p>
+            <p>LSB: <span id="l1"></span></p>
+            <p>MSB: <span id="m1"></span></p>
+            <p>ASCII: <span id="a1"></span></p>
+            <p>CheckSum8 XOR: <span id="c1"></span></p>
+        </div>
+        <div class="secondNum" style="margin-left: 20px;  width: 250px;">
+            <p>Binary: <span id="b2"></span></p>
+            <p>Hex: <span id="h2"></span></p>
+            <p>LSB: <span id="l2"></span></p>
+            <p>MSB: <span id="m2"></span></p>
+            <p>ASCII: <span id="a2"></span></p>
+            <p>CheckSum8 XOR: <span id="c2"></span></p>
+        </div>
+    </div>
+
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
